@@ -1,0 +1,67 @@
+.section-1 {
+    position: relative;
+    margin-top: 50px;
+    padding: 0 82px;
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+
+    .section1-sector1 {
+        .section1-sector1Img {
+            position: relative;
+            top: 24px;
+        }
+    }
+
+    .section1-sector2 {
+        margin-top: 39px;
+
+        h1 {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 55px;
+            width: 430px;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            margin-top: 51px;
+        }
+
+        .section1-sector2Under {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 46px;
+            gap: 36px;
+
+            button {
+                padding: 15px 20px;
+                color: #fff;
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 400;
+                font-size: 15px;
+                background-color: #000;
+                border-radius: 100px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .section1-sector3 {
+        .section1-sector3Img {
+            display: flex;
+            margin-left: 71px;
+        }
+        .section1-sector3Img2{
+            display: flex;
+            margin-top: 24px
+        }
+    }
+}

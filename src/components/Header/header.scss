@@ -1,0 +1,47 @@
+.header{
+    position: relative;
+    padding: 23px 82px;
+    display: flex;
+    justify-content: space-between;
+    .header-span1{
+        display: flex;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+        .header-logo{
+            font-weight: 600;
+            padding: 8px 13px;
+            font-size: 23px;
+            border: 3px solid #030303;
+        }
+        .header-ul{
+            display: flex;
+            gap: 40px;
+            li{
+                font-size: 15px;
+                font-weight: 400;
+                font-family: 'Plus Jakarta Sans';
+                cursor: pointer;
+            }
+        }
+    }
+    .header-span2{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        a{
+            font-family: 'Plus Jakarta Sans';
+            font-size: 15px;
+            font-weight: 400;
+        }
+        button{
+            padding: 15px 20px;
+            color: #fff;
+            background-color: #030303;
+            border-radius: 100px;
+            cursor: pointer;
+            font-family: 'Plus Jakarta Sans';
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.section-4{
+    position: relative;
+    margin-top: 113px;
+
+    .section4-block1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h1{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 59px;
+        }
+        p{
+            margin-top: 41px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            font-family: 'Plus Jakarta Sans';
+        }
+    }
+
+    .section4-block2{
+        position: relative;
+        margin-top: 78px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 41px;
+
+        .section4-posts{
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            .section4-postsContent{
+                margin-left: 24px;
+                h1{
+                    font-family: 'Plus Jakarta Sans';
+                    font-weight: 400;
+                    font-size: 27px;
+                    line-height: 35px;
+                }
+                p{
+                    font-family: 'Plus Jakarta Sans';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+                    width: 447px;
+                }
+            }
+
+            .section4-linkVector{
+                margin-left: 105px;
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
